@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="42882" started-at="2020-07-26T23:47:44 IST" finished-at="2020-07-26T23:48:27 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="42882" started-at="2020-07-26T23:47:44 IST" finished-at="2020-07-26T23:48:27 IST">
+      <class name="com.cognizant.mobile.ecommerce.TestProductPurchase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cognizant.mobile.ecommerce.TestProductPurchase@462d5aee]" name="setUp" is-config="true" duration-ms="16285" started-at="2020-07-26T23:47:44 IST" finished-at="2020-07-26T23:48:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="productPurchaseTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cognizant.mobile.ecommerce.TestProductPurchase@462d5aee]" name="productPurchaseTest" duration-ms="9" started-at="2020-07-26T23:48:02 IST" data-provider="Product Purchase" finished-at="2020-07-26T23:48:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testabcabc84@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WordPass#123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[65 inch tv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productPurchaseTest -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.cognizant.mobile.ecommerce.TestProductPurchase@462d5aee]" name="tearDown" is-config="true" duration-ms="25162" started-at="2020-07-26T23:48:02 IST" finished-at="2020-07-26T23:48:27 IST">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[An unknown server-side error occurred while processing the command. Original error: Could not proxy. Proxy error: Request failed with status code 404
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GQO761G', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\DELL\eclipse-works..., appPackage: com.amazon.mShop.android.sh..., automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\DELL\eclipse-works..., automationName: uiautomator2, deviceName: Pixel2, platformName: android}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-M315F, deviceName: RZ8N21KYYXA, deviceScreenDensity: 420, deviceScreenSize: 1080x2340, deviceUDID: RZ8N21KYYXA, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 78, takesScreenshot: true, viewportRect: {height: 2053, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 9ba1415a-19d4-4b7f-b604-783f835b39a2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy. Proxy error: Request failed with status code 404
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GQO761G', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\DELL\eclipse-works..., appPackage: com.amazon.mShop.android.sh..., automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\DELL\eclipse-works..., automationName: uiautomator2, deviceName: Pixel2, platformName: android}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-M315F, deviceName: RZ8N21KYYXA, deviceScreenDensity: 420, deviceScreenSize: 1080x2340, deviceUDID: RZ8N21KYYXA, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 78, takesScreenshot: true, viewportRect: {height: 2053, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 9ba1415a-19d4-4b7f-b604-783f835b39a2
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at com.cognizant.mobile.ecommerce.TestProductPurchase.tearDown(TestProductPurchase.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:620)
+at org.testng.TestRunner.afterRun(TestRunner.java:850)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cognizant.mobile.ecommerce.TestProductPurchase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
